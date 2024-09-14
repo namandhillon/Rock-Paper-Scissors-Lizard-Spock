@@ -8,8 +8,6 @@ Project: Rock Paper Scissors Lizard Spock (The Big Bang Theory)
 
 int main() {
 
-  // live long and prosper
-
   srand (time(NULL));
 
   int computer = rand() % 5 + 1;
